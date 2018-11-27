@@ -1,0 +1,15 @@
+@keyframes mov{
+  from { transform: rotate(0deg); scale: 1; }
+  to { transform: rotate(360deg); scale: 2; }
+}
+
+.cont{
+  height: 80vh; width: 100%;
+  position: relative;
+}
+.word{
+  font-size: 300%; 
+  position: absolute;  
+  animation: mov 5s linear infinite ; align-self: center;
+  top: 40%; left: 40%;
+}
